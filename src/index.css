@@ -1,3 +1,9 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +11,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-image: linear-gradient( #bab2f8 0%,rgb(234, 234, 234) 60% , rgb(234, 234, 234) 100%);
 }
 
 code {
